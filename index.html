@@ -197,11 +197,12 @@ chart.render();
             <br>
             <p>
               Hi! My name is Aarush Aitha and I am currently a senior attending Dublin High 
-              School (class of 2021). My academic goals include gaining a bachelor's degree 
-              in Computer Science from an accredited four year university, then pursuing 
-              higher education in AI. In a perfect world, I see myself as an accomplished AI 
+              School (class of 2021). I am also an incoming freshman at UC Berkeley for
+              the class of 2025. My academic goals include gaining a bachelor's degree 
+              in Electrical Engineering and Computer Science (EECS), then pursuing 
+              higher education in AI. In the future, I hope to become an accomplished AI 
               researcher and/or professor with a plethora of papers on data science and 
-              machine learning, and an amalgamation of CS-related awards. 
+              machine learning, and an amalgamation of CS-related patents/inventions.
             </p>
             <p>
               In regards to CS, my strengths lie in mathematical/theoretical computing, data
@@ -225,7 +226,7 @@ chart.render();
               space for kids to learn code), I've taken the initiative to promote this message. 
               As Vice President of the Tri-Valley Youth Expo, I play a large part in organizing hackathons
               and musical talent shows annually. I also developed a comprehensive Python curriculum
-              for a beginner Python course over my sophomore and junior year, then taught a full course
+              for a beginner Python course over my sophomore and junior year, then taught a 12 week course
               to roughly 35 students from around the Bay Area.
             </p>
             <p>
@@ -260,7 +261,7 @@ chart.render();
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Resume</h2>
-            <h3 class="section-subheading text-muted">Take a look at some of my marketable skills. Click to view my <a href="new_resume.pdf" target="_blank">professional resume.</a></h3>
+            <h3 class="section-subheading text-muted">During my time in high school, I have gained work experience through various different internships, extracurricular activities, and scholastic competitions. Relating to the workplace specifically, I was a data science intern at a startup company called Infinilytics located in San Ramon. I was also a research intern at Stanford University in the summer of 2020, studying COVID-19 variants and their correlation with mutations in specific proteins. This summer (2021), I will be interning at Google's Computer Science Summer Institute (CSSI) in order to prepare for a CS-related career after college. Take a look at some of my marketable skills. Click to view my <a href="new_resume.pdf" target="_blank">professional resume.</a></h3>
           </div>
         </div>
         <div class="row text-center">
@@ -432,6 +433,20 @@ chart.render();
             </a>
             <div class="portfolio-caption">
               <h4>AOI Circuit Design</h4>
+              <p class="text-muted">Electrical Engineering</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/pld_circuit.PNG" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>PLD Design</h4>
               <p class="text-muted">Electrical Engineering</p>
             </div>
           </div>
@@ -776,6 +791,42 @@ We submitted a video to the Congressional App Challenge for 2019, which is linke
                     <li>Date: December 2020</li>
                     <li>Partners: Shree Ravisankar, Sragvi Vadali, Vikas Ummadisetty</li>
                     <li>Category: Breadboarding, Circuit Design, Electrical Engineering</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Programmable Logic Device Design</h2>
+                  <p class="item-intro text-muted">A loading animation creating using a seven segment display in cathode configuration, a PLD (Digilent Cmod S6), NI Multisim 14.0 and a myDAQ protoboard.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/lockpick_game.PNG" alt="">
+                  <p>
+                    In this project, I was asked to create an artistic piece using a programmable logic device (PLD). This artistic piece was required to have at least 4 inputs utilized for a total of 16 states, at least 5 outputs which are not to be all dark for more than 2 states, and a display that is automated by a clock so the states cycle automatically. Programmable logic devices have modifiable logic and can be dynamically altered in order to support a specific task at a specific time. The specific model that I used was the Digilent Cmod S6, which can be purchased on Amazon <a href="https://www.amazon.com/Cmod-S6-Digilent-Breadboardable-Spartan-6/dp/B071ZJ4RZ1" target="_blank">here</a>. I came up with the idea to create a new and aesthetically pleasing loading animation for Youtube videos after being forced to watch the lackluster buffering animation for five minutes straight. For this project, I was able to program all of the logic within Multisim by using a logic converter that converted all of my unsimplified logic expressions into digital versions of AOI gates automatically. Then, I simply constructed a 4-bit counter to show the current state number at each stage of my loading animation. Then, I simply exported my Multisim program to the PLD and connected the correct pins on the PLD to their corresponding pins on the SSD and LED's on the protoboard (respectively). Throughout the process, I documented all of my work (from brainstorming to final solution descriptions), and the documentation can be found <a href="https://docs.google.com/document/d/1lWpkzl1kUKygsQ-Row3TFGptKcW2VNwj4xST3OVkDAs/edit?usp=sharing" target="_blank">here</a>. I also recorded a video presentation to showcase a live demonstration of my project, which can be viewed <a href="https://drive.google.com/file/d/15u8UBXP5VJLY_U6JIf1m_nrPOgOAGhQN/view?usp=sharing" target="_blank">here</a>.   
+                  </p>
+                  <ul class="list-inline">
+                    <li>Date: March 2021</li>
+                    <li>Partners: None</li>
+                    <li>Category: Circuit Design, Boolean Logic, Programming</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
